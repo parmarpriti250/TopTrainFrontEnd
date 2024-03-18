@@ -1,0 +1,61 @@
+.main-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   align-content: center;
+  //  float: left;
+   height: 777px;
+  }
+
+
+  .radio-buttons {
+    display: flex; /* Display radio buttons in a row */
+  }
+  
+  .radio-buttons label {
+    margin-right: 20px; /* Add spacing between radio buttons */
+  }
+  
+  .radio-buttons input[type="radio"] {
+    margin-right: 5px; /* Adjust spacing between radio button and label */
+  }
+.experience{
+  margin-right: 10px;
+}
+
+.dropdown {
+    width: 200px; /* Set the width of dropdowns */
+    height: 40px; /* Set the height of dropdowns */
+    margin-bottom:15px; /* Set the margin bottom to create space */
+  }
+  .form-group {
+    margin-bottom: 5px;
+
+    label {
+      display: block;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+  }
+
+  .button-group button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  

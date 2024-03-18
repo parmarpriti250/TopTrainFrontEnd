@@ -1,0 +1,43 @@
+.main-container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  .text{
+    color: blue;
+  }
+
+
+  .button-group {
+    display: flex;
+    flex-wrap: wrap; /* Allow buttons to wrap to the next line */
+  }
+  
+  .selectable-button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 10px; /* Add margin between buttons */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .selectable-button.selected {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .button-group button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }

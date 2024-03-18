@@ -1,0 +1,61 @@
+.main-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  .input-group {
+    margin-bottom: 9px;
+    width: 30px;
+    margin-right: 51px; /* Add some spacing between form-checks */
+    min-height: 1.5rem;
+    padding-left: 1.5em;
+    margin-bottom: 0.125rem;
+
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px
+  }
+  
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    // font-weight: bold;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .radio-buttons {
+    display: flex; /* Display radio buttons in a row */
+  }
+  
+  .radio-buttons label {
+    margin-right: 20px; /* Add spacing between radio buttons */
+  }
+  
+  .radio-buttons input[type="radio"] {
+    margin-right: 5px; /* Adjust spacing between radio button and label */
+  }
+  
+  .button-group button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }

@@ -1,0 +1,123 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 9px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px
+  }
+  
+  .input-group input,
+  .input-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  
+  .input-group input[type="tel"],
+  .input-group input[type="email"] {
+    width: calc(100% - 90px);
+  }
+  
+  .input-group button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .button-group button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .button-group button:last-child {
+    margin-right: 0;
+  }
+  .form-check {
+    display: inline-block; /* Display each form-check as inline-block */
+    margin-right: 51px; /* Add some spacing between form-checks */
+    min-height: 1.5rem;
+    padding-left: 1.5em;
+    margin-bottom: 0.125rem;
+}
+  
+
+  .form-check-location {
+    display: inline-block; /* Display each form-check as inline-block */
+    margin-right: 51px; /* Add some spacing between form-checks */
+   
+  }
+  
+  /* Basic styling for the select dropdown */
+#dropdown {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    appearance: none; /* Remove default arrow */
+    -webkit-appearance: none; /* Safari and Chrome */
+    -moz-appearance: none; /* Firefox */
+    background-image: url('data:image/svg+xml;utf8,<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>'); /* Add custom arrow */
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px); /* Position arrow */
+    background-position-y: center;
+  }
+  
+  /* Styling for dropdown options */
+  #dropdown option {
+    padding: 10px;
+  }
+  
+  .button{
+    width: 100%;
+  padding: 10px;
+//   background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  }
+
+
+  .radio-buttons {
+    display: flex; /* Display radio buttons in a row */
+  }
+  
+  .radio-buttons label {
+    margin-right: 20px; /* Add spacing between radio buttons */
+  }
+  
+  .radio-buttons input[type="radio"] {
+    margin-right: 5px; /* Adjust spacing between radio button and label */
+  }
+  

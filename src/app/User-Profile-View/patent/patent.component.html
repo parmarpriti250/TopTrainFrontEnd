@@ -1,0 +1,77 @@
+<div class="main-container">
+    <h2 class="section-title">Patent</h2>
+
+    <div class="text">
+        <p>Add details of patents you have filed.
+        </p>
+    </div>
+
+    <form action="#" method="POST">
+        <div class="form-group">
+            <label for="Patent-Title">Patent Title</label>
+            <input type="text" id="Patent-Title" name="Patent-Title" placeholder="Enter Title" required>
+        </div>
+        <div class="form-group">
+            <label for="url">URL</label>
+            <input type="text" id="url" name="url" placeholder="Enter patent URL here" required>
+        </div>
+        <div class="form-group">
+            <label for="Patent-office">Patent office</label>
+            <input type="tel" id="Patent-office" name="Patent-office" placeholder="Enter patent office" required>
+
+        </div>
+        <label for="name">Status
+        </label>
+
+        <div class="radio-buttons">
+            <label for="radio1">
+                <input type="radio" id="radio1" name="radios" value="option1"> Patent Issued
+            </label>
+            <label for="radio2">
+                <input type="radio" id="radio2" name="radios" value="option2"> Patent Pending
+
+            </label>
+        </div>
+
+
+
+
+        <div class="form-group">
+            <label for="Application-number">Application number</label>
+            <input type="tel" id="Application-number" name="Application-number" placeholder="Enter application number"
+                required>
+        </div>
+
+
+        <div class="form-group">
+            <label for="Issue-Date">Issue Date:</label>
+            <div class="Issue-Date">
+                <select id="year" name="year">
+                    <option value="">Select Year</option>
+
+                </select>
+                <select id="month" name="month">
+                    <option value="">Select Month</option>
+
+                </select>
+            </div>
+        </div>
+
+
+        <div class="form-group">
+
+            <label for="Description">Description:</label>
+            <textarea class="form-control" id="validationTextarea" placeholder="Type here...." required></textarea>
+            <div class="textarealine">
+                1000 characthers left.
+            </div>
+        </div>
+
+
+        <div class="button-group">
+            <button id="cancel">Cancel</button>
+            <button id="save">Save</button>
+
+        </div>
+    </form>
+</div>

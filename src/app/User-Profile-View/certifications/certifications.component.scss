@@ -1,0 +1,42 @@
+.main-container {
+    max-width: 649px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  
+  .textarealine {
+    text-align: right;
+    color: gray;
+}
+
+
+.button-group button {
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .Published-on select{
+    margin-right: 18px;
+    padding: 5px;
+    font-size: 16px;
+    width: 120px;
+  }
+
+
+  .remember-forgotpassword{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .remember-forgotpassword a{
+
+    text-decoration: none;
+  }
